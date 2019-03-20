@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Veracode Greenlight</title>
+    <link>http://marketplace.eclipse.org/content/veracode-greenlight</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/01_Eclipse_Transparent_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2019-03-19 14:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Veracode%22&quot;&gt;Veracode&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-04-10 14:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jbaker4rv/listings&quot; title=&quot;Jeremy Baker&quot;&gt;Jeremy Baker&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Veracode Greenlight finds security defects in your code and provides contextual remediation advice to help you fix issues in seconds, right in your Eclipse IDE. With Veracode Greenlight, find issues early, reduce development and remediation costs, and deploy quality code on your timeline.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Not a customer? Try Veracode for free!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://info.veracode.com/veracode-greenlight-self-service-free-trial.html&quot; rel=&quot;nofollow&quot;&gt;Register&lt;/a&gt; for a free trial of Veracode Greenlight. For information on getting started, visit our &lt;a href=&quot;https://help.veracode.com/reader/JVdG5ruGOiJnRpaJmQVCSQ/qkF59zimmFZwAw31QcK8xw&quot; rel=&quot;nofollow&quot;&gt;Help Center&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Using the Veracode Greenlight Eclipse Plugin&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Visit our &lt;a href=&quot;https://help.veracode.com/reader/JVdG5ruGOiJnRpaJmQVCSQ/yRM0PbHufBD_Uvl81gUDxA&quot; rel=&quot;nofollow&quot;&gt;Help Center&lt;/a&gt; for installation and usage instructions. If you have any questions or need assistance at any time, please contact your Veracode Program Manager or &lt;a href=&quot;mailto:support@veracode.com&quot; rel=&quot;nofollow&quot;&gt;support@veracode.com&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 10 Apr 2017 18:32:57 +0000</pubDate>
+ <dc:creator>jbaker4rv</dc:creator>
+ <guid isPermaLink="false">3388415 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/veracode-greenlight#comments</comments>
+  </item>
+  <item>
+    <title>IBM Operational Decision Manager for Developers v 8.10.1 - Rule Designer</title>
+    <link>http://marketplace.eclipse.org/content/ibm-operational-decision-manager-developers-v-8101-rule-designer</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2019-03-19 08:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2019-03-19 06:49&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ftrible/listings&quot; title=&quot;François Trible&quot;&gt;François Trible&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Rule Designer is the Eclipse-based development environment of IBM Operational Decision Manager for Developers, for making rule applications that automate the implementation of business policies. Developers benefit from a short learning curve, and best-of-class power and efficiency for rule applications development.&lt;/p&gt;
+&lt;p&gt;Rule Designer key features include co-editing and debugging of Java code and rules, auto correction of rules, decision flow control, code-generation wizards, source code control integration, and conflict and redundancy detection.&lt;/p&gt;
+&lt;p&gt;When used with IBM Operational Decision Manager for Developers, Rule Designer completes a collaborative work environment for developers to automate a company&#039;s business policies for in-house or web-based use.&lt;/p&gt;
+&lt;p&gt;For additional information and support, go to the IBM Operational Decision Manager Developer Center (&lt;a href=&quot;https://developer.ibm.com/odm/&quot; rel=&quot;nofollow&quot;&gt;https://developer.ibm.com/odm/&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 19 Mar 2019 10:49:25 +0000</pubDate>
+ <dc:creator>ftrible</dc:creator>
+ <guid isPermaLink="false">4550395 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-operational-decision-manager-developers-v-8101-rule-designer#comments</comments>
+  </item>
+  <item>
+    <title>Nodeclipse</title>
+    <link>http://marketplace.eclipse.org/content/nodeclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Nodejs_logo_light.png&quot; width=&quot;110&quot; height=&quot;38&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2019-03-19 05:46&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Nodeclipse%20organization%22&quot;&gt;Nodeclipse organization&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2013-03-26 07:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tinagaki/listings&quot; title=&quot;Tomoyuki Inagaki&quot;&gt;Tomoyuki Inagaki&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;March 2019: nodeclipse.org is not available,&lt;br /&gt;
+use &lt;a href=&quot;https://nodeclipse.github.io&quot; rel=&quot;nofollow&quot;&gt;https://nodeclipse.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nodeclipse Core &amp;amp; Node.js (nodeclipse-1) is Eclipse plugin for the Node.js. The purpose of Nodeclipse is to create environment in which Node.js development is easy for any user from beginner to professional. Enide Studio 2014 that is recommended as the most feature rich distribution. --&amp;gt; Check out &lt;a href=&quot;http://marketplace.eclipse.org/content/nodeclipse/click&quot; rel=&quot;nofollow&quot;&gt;http://www.nodeclipse.org/&lt;/a&gt; &lt;strong&gt;About&lt;/strong&gt; One-stop shop for Node.js tools. We can&#039;t develop everything at once, but we let you know what are the best things around for Node.js development with Eclipse. &lt;a href=&quot;http://www.nodeclipse.org/history&quot; rel=&quot;nofollow&quot;&gt;http://www.nodeclipse.org/history&lt;/a&gt; &lt;strong&gt;Usage&lt;/strong&gt; &lt;a href=&quot;http://www.nodeclipse.org/usage&quot; rel=&quot;nofollow&quot;&gt;http://www.nodeclipse.org/usage&lt;/a&gt; &lt;strong&gt;Features&lt;/strong&gt; &lt;a href=&quot;http://www.nodeclipse.org/features&quot; rel=&quot;nofollow&quot;&gt;http://www.nodeclipse.org/features&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Creating default structure for New Node Project and New Node Source File&lt;/li&gt;
+&lt;li&gt;Generating Express project with Wizard&lt;/li&gt;
+&lt;li&gt;JavaScript Syntax highlighting&lt;/li&gt;
+&lt;li&gt;Bracket matching and marking selection occurences with background color&lt;/li&gt;
+&lt;li&gt;Content assist (JSDT and/or Tern)&lt;/li&gt;
+&lt;li&gt;Code completion for base Node.js modules, Express, MongoDB driver, Mongoose (create tern plugins for more)&lt;/li&gt;
+&lt;li&gt;Experimental content assist from Orion IndexFiles for amqp, express, mongodb, mysql, postgres and redis node packages&lt;/li&gt;
+&lt;li&gt;Go to definition with Ctrl+click when &lt;a href=&quot;http://usejsdoc.org/&quot; rel=&quot;nofollow&quot;&gt;JSDoc is used&lt;/a&gt; or Tern is configured&lt;/li&gt;
+&lt;li&gt;Refactoring within one file (Alt+Shift+R)&lt;/li&gt;
+&lt;li&gt;JSON files highlight and validation&lt;/li&gt;
+&lt;li&gt;NPM support&lt;/li&gt;
+&lt;li&gt;Debugging - Breakpoint, Trace, Variables, Expressions, etc... via modified Eclipse debugger plugin for V8 (Chromium Tools)&lt;/li&gt;
+&lt;li&gt;Setting project properties for &lt;a href=&quot;http://github.eclipsesource.com/jshint-eclipse/&quot; rel=&quot;nofollow&quot;&gt;JSHint-Eclipse&lt;/a&gt; automatically; &lt;a href=&quot;http://www.jshint.com/&quot; rel=&quot;nofollow&quot;&gt;JSHint&lt;/a&gt; settings &lt;a href=&quot;https://github.com/Nodeclipse/nodeclipse-1/blob/master/org.nodeclipse.ui/templates/common-templates/.jshintrc&quot; rel=&quot;nofollow&quot;&gt;template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Passing arguments to &lt;code&gt;node&lt;/code&gt; and Node application (per every file and per whole workspace)&lt;/li&gt;
+&lt;li&gt;Specifying environment variables values to use (per every file)&lt;/li&gt;
+&lt;li&gt;Running CoffeeScript *.coffee files&lt;/li&gt;
+&lt;li&gt;Running *.js files with PhantomJS, MongoDB Shell or Java 8 Nashorn &lt;code&gt;jjs&lt;/code&gt; util.&lt;/li&gt;
+&lt;li&gt;Supporting &lt;code&gt;*.njs, *.pjs, *.mjs&lt;/code&gt; and &lt;code&gt;*.jjs&lt;/code&gt; file extentions.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Hints&lt;/strong&gt;: - rename .js to .njs to have less run options - JSHint-Eclipse is included, with JSHint 2.5.6 that is EcmaScript 5 aware. Configure in .jshintrc file. - use Ctrl+Alt+E or &lt;a href=&quot;http://basti1302.github.io/startexplorer/&quot; rel=&quot;nofollow&quot;&gt;StartExplorer&lt;/a&gt;/Show in File Manager, or Ctrl+Alt+D or &lt;a href=&quot;http://basti1302.github.io/startexplorer/&quot; rel=&quot;nofollow&quot;&gt;StartExplorer&lt;/a&gt;/Start Shell Here, - use &lt;a href=&quot;https://github.com/Nodeclipse/EditBox&quot; rel=&quot;nofollow&quot;&gt;EditBox&lt;/a&gt; for block color highlight Support &lt;a href=&quot;http://www.nodeclipse.org/#support&quot; rel=&quot;nofollow&quot;&gt;http://www.nodeclipse.org/#support&lt;/a&gt; - &lt;a href=&quot;http://stackoverflow.com/questions/tagged/nodeclipse&quot; rel=&quot;nofollow&quot;&gt;http://stackoverflow.com/questions/tagged/nodeclipse&lt;/a&gt; - &lt;a href=&quot;https://github.com/Nodeclipse/nodeclipse-1/issues&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Nodeclipse/nodeclipse-1/issues&lt;/a&gt; - &lt;a href=&quot;https://groups.google.com/forum/?hl=en&amp;amp;fromgroups#!forum/nodeclipse&quot; rel=&quot;nofollow&quot;&gt;https://groups.google.com/forum/?hl=en&amp;amp;fromgroups#!forum/nodeclipse&lt;/a&gt; (Forum is not checked by authors; but issues and SO questions with nodeclipse tag are) Listed in &lt;a href=&quot;/content/nodeclipse-plugins-list&quot; title=&quot;Nodeclipse Plugins List&quot; rel=&quot;nofollow&quot;&gt;Nodeclipse Plugins List&lt;/a&gt; &lt;a href=&quot;http://with-eclipse.github.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 26 Mar 2013 11:45:07 +0000</pubDate>
+ <dc:creator>tinagaki</dc:creator>
+ <guid isPermaLink="false">759140 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/nodeclipse#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Wild Web Developer - web development in Eclipse IDE</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-wild-web-developer-web-development-eclipse-ide</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wild-web-developer-marketplace-logo.png&quot; width=&quot;110&quot; height=&quot;78&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2019-03-19 04:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Wild%20Web%20Developers%20Contributors%22&quot;&gt;Eclipse Wild Web Developers Contributors&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-04-13 10:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mistria/listings&quot; title=&quot;Mickael Istria&quot;&gt;Mickael Istria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;Eclipse Wild Web Developer&lt;/em&gt; enables simple and rich &lt;strong&gt;edition&lt;/strong&gt; of typical main web and configuration files (HTML, CSS, JS, TS, JSon, YAML, XML -with schema support-) and &lt;strong&gt;debugging&lt;/strong&gt; of Node.js apps in the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;To see it in action, open the desired file with the &lt;em&gt;Generic Editor&lt;/em&gt; that&#039;s included by default in the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;Supported file formats for edition:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;CSS, SCSS, SASS, LESS&lt;/li&gt;
+&lt;li&gt;JavaScript (EcmaScript 9)&lt;/li&gt;
+&lt;li&gt;TypeScript 3.3&lt;/li&gt;
+&lt;li&gt;JSon (including schema support)&lt;/li&gt;
+&lt;li&gt;Yaml (ncluding schema support, Kubernetes schema built-in&lt;/li&gt;
+&lt;li&gt;XML (including schema support), XSL, XSD, DTD&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Supported frameworks (file specialization) for edition:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Kubernetes&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Supported feature for edition are&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Validation (diagnostics, markers)&lt;/li&gt;
+&lt;li&gt;Code Completion&lt;/li&gt;
+&lt;li&gt;Hover&lt;/li&gt;
+&lt;li&gt;Outline&lt;/li&gt;
+&lt;li&gt;Rename refactoring&lt;/li&gt;
+&lt;li&gt;Jump to declaration&lt;/li&gt;
+&lt;li&gt;Find references&lt;/li&gt;
+&lt;li&gt;Color preview&lt;/li&gt;
+&lt;li&gt;... and other features part of the Language Server Protocol&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Supported debugging target&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Node.js&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 13 Apr 2017 14:52:25 +0000</pubDate>
+ <dc:creator>mistria</dc:creator>
+ <guid isPermaLink="false">3394048 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-wild-web-developer-web-development-eclipse-ide#comments</comments>
+  </item>
+  <item>
+    <title>Alibaba Cloud Toolkit</title>
+    <link>http://marketplace.eclipse.org/content/alibaba-cloud-toolkit</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/alibaba_logo_110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-18 23:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Alibaba%22&quot;&gt;Alibaba&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-11-13 04:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/yshiunv/listings&quot; title=&quot;Ni Chao&quot;&gt;Ni Chao&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Alibaba Cloud Toolkit is a plugin for IDEs such as Eclipse or IntelliJ IDEA. Help developers more efficiently develop, test, diagnose, and deploy applications that are suitable for cloud operations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why use Alibaba Cloud Toolkit?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Zero cost：Free for all developer&lt;/li&gt;
+&lt;li&gt;Multilingualism：No language restrictions, for all development languages&lt;/li&gt;
+&lt;li&gt;Extremely efficient：Get rid of past recurring deployment methods, plug-in automated deployment&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Three use scenarios, simple and convenient, get started quickly&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Scenario 1: Deploy to ECS。There is no need to switch between Maven, Git, and other O&amp;amp;M scripts and tools, and developers can configure it on a graphical interface to deploy applications to ECS in a sustainable and convenient manner.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scenario 2: Deploy to EDAS。Enterprise Distributed Application Services EDAS is a PaaS platform for applications and microservices that offers a wide range of application delivery and lightweight microservice solutions. For Alibaba Cloud EDAS developers, local applications and cloud deployments have been opened on the plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scenario 3: Deploy to Kubernetes。Container Services Kubernetes Edition provides high-performance, scalable container application management capabilities that support full lifecycle management of enterprise-class Kubernetes containerized applications. For Alibaba Cloud Kubernetes developers, local applications and cloud deployments have been opened on the plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Alibaba Cloud Toolkit（或叫做阿里云 Toolkit，Aliyun Toolkit ），是一个面向 Eclipse 或者 Intellij IDEA 系列平台的插件。其帮助开发者更高效的开发、测试、诊断和部署面向云端运行的应用。&lt;/p&gt;
+&lt;p&gt;为什么选择Alibaba Cloud Toolkit？&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;0 成本：对所有开发者免费&lt;/li&gt;
+&lt;li&gt;跨语言：没有编程语言限制&lt;/li&gt;
+&lt;li&gt;极高效：摆脱传统的手工部署方式，多种使用场景，简单方便，快速入门&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;三大场景&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;场景1：部署到 ECS。无需在 Maven、Git 和 SecureCRT 等其他运维工具和脚本之间切换，开发者可以在 IDE 的图形界面上配置好自动化流程，以便采用持续和自动化的方式将应用程序部署到ECS。&lt;/li&gt;
+&lt;li&gt;场景2：部署到 EDAS. 企业级分布式应用服务 EDAS 是一个用于开发和部署微服务应用 PaaS 平台，提供通用的应用程序交付和轻量级微服务解决方案。对于阿里云 EDAS 开发者，可以在插件中关联云端的 EDAS 应用，实现自动化部署。&lt;/li&gt;
+&lt;li&gt;场景3：部署到容器服务 Kubernetes。阿里云容器服务 Kubernetes 版提供高性能，可扩展的容器应用管理功能，支持企业级 Kubernetes 容器化应用的完整生命周期管理。对于阿里云 Kubernetes 开发者，可以在插件中关联云端的 Kubernetes 容器，实现自动化部署。&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 13 Nov 2018 09:24:10 +0000</pubDate>
+ <dc:creator>yshiunv</dc:creator>
+ <guid isPermaLink="false">4368067 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/alibaba-cloud-toolkit#comments</comments>
+  </item>
+  <item>
+    <title>SQL Editor</title>
+    <link>http://marketplace.eclipse.org/content/sql-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/sql-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-18 18:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-03-14 03:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This is just a SQL editor. It is NOT a full database tool but just an editor for SQL files.&lt;/p&gt;
+&lt;p&gt;Features.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Syntax highlighting&lt;br /&gt;
+	(Customizable colors, defaults for dark theme)&lt;/li&gt;
+&lt;li&gt;Simple code completion&lt;br /&gt;
+	(wellknown sql keywords and existing words)&lt;/li&gt;
+&lt;li&gt;Outline, Quick outline&lt;br /&gt;
+	(can be turned off in preferences)&lt;/li&gt;
+&lt;li&gt;Block commenting/uncommenting&lt;/li&gt;
+&lt;li&gt;Bracket switching&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Additional links&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-sql-editor/issues&quot; rel=&quot;nofollow&quot;&gt;Issue Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-sql-editor/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-sql-editor/wiki&quot; rel=&quot;nofollow&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://htmlpreview.github.io/?https://raw.githubusercontent.com/de-jcup/eclipse-sql-editor/master/sqleditor-plugin/html/toc.html&quot; rel=&quot;nofollow&quot;&gt;Internal help (Preview master branch)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 14 Mar 2019 07:07:03 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">4542468 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/sql-editor#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Java EE Developer Tools</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-java-ee-developer-tools-0</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wtp_logo_2010-80x80_1.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-18 14:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22The%20Eclipse%20Foundation%22&quot;&gt;The Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-07-06 21:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/nitind/listings&quot; title=&quot;Nitin Dahyabhai&quot;&gt;Nitin Dahyabhai&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Enables Enterprise Java Bean, Java Enterprise Application, Fragments, and Connector, Java Web Application, JavaServer Faces (JSF), Java Server Pages (JSP), Java Servlet, Java Web Services, and Tag Library development and debugging, plus Java Enterprise server, Java Servlet Container, and Java Application launching and debugging. Includes the JSP, HTML, CSS, and JSON Editors, JavaScript Developer Tools, the XML, XML Schema, XML Stylesheet, and DTD Editors from the Eclipse Web Tools Platform project.&lt;/p&gt;
+&lt;p&gt;If you&#039;re developing web applications with a Java-based back-end, this one&#039;s for you.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 07 Jul 2016 01:31:37 +0000</pubDate>
+ <dc:creator>nitind</dc:creator>
+ <guid isPermaLink="false">2963451 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-java-ee-developer-tools-0#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Web Developer Tools</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-web-developer-tools-0</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wtp_logo_2010-80x80_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-18 14:50&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22The%20Eclipse%20Foundation%22&quot;&gt;The Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-07-06 20:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/nitind/listings&quot; title=&quot;Nitin Dahyabhai&quot;&gt;Nitin Dahyabhai&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Includes the HTML, CSS, and JSON Editors, and JavaScript Development Tools from the Eclipse Web Tools Platform project, aimed at supporting client-side web development and node.js applications. Also installs the XML, XML Schema, and DTD Editors from the Eclipse Web Tools Platform project.&lt;/p&gt;
+&lt;p&gt;If you need to edit HTML, CSS, and JavaScript files, whether you&#039;re developing web applications or not, whatever the back-end, this one&#039;s for you.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 07 Jul 2016 00:07:19 +0000</pubDate>
+ <dc:creator>nitind</dc:creator>
+ <guid isPermaLink="false">2963400 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-web-developer-tools-0#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse XML Editors and Tools</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-xml-editors-and-tools-0</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wtp_logo_2010-80x80.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-18 14:49&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22The%20Eclipse%20Foundation%22&quot;&gt;The Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2016-06-30 18:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/nitind/listings&quot; title=&quot;Nitin Dahyabhai&quot;&gt;Nitin Dahyabhai&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Includes the XML, XML Schema, and DTD Editors and Tools, and XSL Developer Tools from the Eclipse Web Tools Platform project.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 30 Jun 2016 22:52:29 +0000</pubDate>
+ <dc:creator>nitind</dc:creator>
+ <guid isPermaLink="false">2953952 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-xml-editors-and-tools-0#comments</comments>
+  </item>
+  <item>
+    <title>MyBatipse</title>
+    <link>http://marketplace.eclipse.org/content/mybatipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/mybatis-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2019-03-18 12:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22MyBatis.org%22&quot;&gt;MyBatis.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2014-02-04 10:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/iave/listings&quot; title=&quot;Iwao AVE&quot;&gt;Iwao AVE&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MyBatipse assists developing &lt;a href=&quot;http://mybatis.org/&quot; rel=&quot;nofollow&quot;&gt;MyBatis&lt;/a&gt; applications.&lt;/p&gt;
+&lt;p&gt;[Features]&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Content assists to reduce typing.&lt;/li&gt;
+&lt;li&gt;Validations to detect errors before running the application.&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&quot;https://github.com/mybatis/mybatipse/&quot; rel=&quot;nofollow&quot;&gt;README&lt;/a&gt; for the full list of features.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 04 Feb 2014 15:06:53 +0000</pubDate>
+ <dc:creator>iave</dc:creator>
+ <guid isPermaLink="false">1467819 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/mybatipse#comments</comments>
+  </item>
+  </channel>
+</rss>
