@@ -13,16 +13,17 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config">
-    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-        <activity android:name=".ui.main.splashActivity">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:name=".ui.splashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.login.mem.Activity_Member" android:theme="@style/AppTheme.NoActionBar1"/>
         <activity android:name=".ui.login.Activity_Login" android:theme="@style/AppTheme.NoActionBar1"/>
-        <activity android:name=".ui.main.Activity_Main"/>
+        <activity android:name=".ui.main.Activity_Main" android:theme="@style/AppTheme.NoActionBar1"/>
         <activity android:name=".ui.goods.Activity_Goods"/>
     </application>
 

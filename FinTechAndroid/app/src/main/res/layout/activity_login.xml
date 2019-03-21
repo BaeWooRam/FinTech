@@ -76,7 +76,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/id"
+            android:text="@string/email"
             android:textColor="@color/PrimaryWhite"
             android:textSize="20sp" />
 
@@ -109,7 +109,9 @@
             android:id="@+id/btnlogin"
             android:layout_width="80dp"
             android:layout_height="30dp"
-            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/ic_bt_login"
             android:text="@string/login"
             android:textColor="@color/PrimaryWhite" />

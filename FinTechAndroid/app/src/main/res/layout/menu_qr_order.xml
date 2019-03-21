@@ -10,6 +10,7 @@
     tools:context=".ui.main.Activity_Main">
 
     <ImageView
+        android:id="@+id/menu_qr"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@drawable/menu_qr"

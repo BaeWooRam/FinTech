@@ -1,4 +1,4 @@
-package com.example.fintech.ui.goods;
+package com.example.fintech.ui.payment;
 
 
 public class Presenter_Main implements Contract_Main.Presenter {

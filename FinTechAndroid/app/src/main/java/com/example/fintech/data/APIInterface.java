@@ -12,8 +12,14 @@ import retrofit2.http.Query;
 
 public interface APIInterface {
 //
-    @GET("payment/testUser")
-    Call<Void> doGetID(@Query("identifier") String email);
+    @GET("payment/login")
+    Call<String> doGetLogin(@Query("email") String email,@Query("password") String password);
+
+    @GET("payment/checkID")
+    Call<String> doGetCheckID(@Query("email") String email);
+
+    @GET("payment/signup")
+    Call<String> doGetCreateID(@Query("email") String email,@Query("name") String name,@Query("password") String password);
 //
 //    @FormUrlEncoded
 //    @POST("myPage/shopping")

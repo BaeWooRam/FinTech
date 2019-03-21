@@ -1,20 +1,17 @@
-package com.example.fintech.ui.login;
+package com.example.fintech.ui.login.mem;
 
-import android.app.Activity;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import com.example.fintech.base.BaseActivity;
 import com.example.fintech.base.MvpPresenter;
 import com.example.fintech.base.MvpView;
 
-public interface Contract_Login {
+public interface Contract_Member {
     interface mvpView extends MvpView<Presenter> {
     }
 
     interface Presenter extends MvpPresenter {
-        void Login(EditText etID, EditText etPWD, BaseActivity context);
-        void ClickEventMember(Activity context);
-
+        void CreateMember(EditText etID, EditText etPWD, EditText etName,BaseActivity context);
+        void CheckDuplicationMember(EditText etID, BaseActivity context);
     }
 }

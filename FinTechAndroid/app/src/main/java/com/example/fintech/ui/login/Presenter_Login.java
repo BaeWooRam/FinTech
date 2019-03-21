@@ -2,17 +2,19 @@ package com.example.fintech.ui.login;
 
 
 import android.app.Activity;
-import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.widget.EditText;
-import android.widget.TextView;
 
-import com.example.fintech.R;
 import com.example.fintech.base.BaseActivity;
 import com.example.fintech.data.APIServerHelper;
-import com.example.fintech.data.MsUrl;
+import com.example.fintech.ui.login.mem.Activity_Member;
+import com.example.fintech.ui.main.Activity_Main;
+import com.example.fintech.util.CommonUtils;
+import com.example.fintech.util.ContractUtils;
+import com.example.fintech.util.MemberUtils;
+import com.example.fintech.util.SHAUtils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -28,13 +30,14 @@ public class Presenter_Login implements Contract_Login.Presenter {
     public void Login(EditText etID, EditText etPWD, BaseActivity context) {
         String id = etID.getText().toString().trim();
         String pwd = etPWD.getText().toString().trim();
-        Log.e("Login id",id);
-        Log.e("Login pwd",pwd);
-        boolean isID = CheckID(id);
-        boolean isPWD = CheckPwd(pwd);
+//        Log.e("Login id",id);
+//        Log.e("Login pwd",pwd);
+        boolean isID = MemberUtils.CheckID(id);
+        boolean isPWD = MemberUtils.CheckPwd(pwd);
         if(isID){
             if(isPWD) {
-                NetworkingSendID(id);
+                String sha_pwd = SHAUtils.getSHA512(pwd);
+                NetworkingSendID(id, sha_pwd,context);
             }else{
                 context.showMessage("비밀번호를 잘못입력하셨습니다.\n 최소 8자리에 숫자, 문자, 특수문자 각각 1개 이상 포함");
             }
@@ -43,52 +46,37 @@ public class Presenter_Login implements Contract_Login.Presenter {
         }
     }
 
-    private boolean CheckID(String id){
-        String regex = "^[_a-zA-Z0-9-\\.]+@[\\.a-zA-Z0-9-]+\\.[a-zA-Z]+$";
-        Pattern p = Pattern.compile(regex);
-        Matcher m = p.matcher(id);
-
-        boolean isNormal = m.matches();
-        return isNormal;
-    }
-
-    //가장 많이 사용되는 최소 8자리에 숫자, 문자, 특수문자 각각 1개 이상 포함
-        private boolean CheckPwd(String pwd){
-            Pattern p = Pattern.compile("^(?=.*[A-Za-z])(?=.*\\d)(?=.*[$@$!%*#?&])[A-Za-z\\d$@$!%*#?&]{8,}$");
-            Matcher m = p.matcher(pwd);
-    
-            if(m.matches()){
-                return true;
-            }
-            return false;
-    
-        }
-
-
-
-    private void NetworkingSendID(String id){
-        Call<Void> call = APIServerHelper.getRetrofitClient().doGetID(id);
-        call.enqueue(new Callback<Void>() {
-            @Override
-            public void onResponse(Call<Void> call, Response<Void> response) {
-                Log.e("CALL ok", "handleMessage: ");
-            }
-
-            @Override
-            public void onFailure(Call<Void> call, Throwable t) {
-                Log.e("CALL no", "handleMessage: ");
-            }
-        });
-        new MsUrl().m_getContext_fromWebSite_sendPost("http://192.168.30.37:8080/payment/testUser?identifier="+id,"",new Handler(){
-            @Override
-            public void handleMessage(Message msg) {
-                Log.e("HANDLER ok", "handleMessage: ");
-            }
-        });
-    }
-
     @Override
-    public void CreateMemberShip() {
+    public void ClickEventMember(Activity context) {
+        CommonUtils.GoToActivity(context, Activity_Member.class);
+    }
+
+
+
+
+
+    private void NetworkingSendID(String id, String pwd, final BaseActivity context){
+        context.showLoading();
+
+        Call<String> call = APIServerHelper.getRetrofitClient().doGetLogin(id,pwd);
+        call.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                String res = response.body();
+                CommonUtils.GoToActivity(context, Activity_Main.class);
+                context.hideLoading();
+//                if(res.equals(ContractUtils.NETWORKING_CONFIRM))
+//                    CommonUtils.GoToActivity(context, Activity_Main.class);
+
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+                context.showMessage("아이디와 비밀번호를 다시한번 확인해주세요!");
+                context.hideLoading();
+            }
+        });
 
     }
+
 }

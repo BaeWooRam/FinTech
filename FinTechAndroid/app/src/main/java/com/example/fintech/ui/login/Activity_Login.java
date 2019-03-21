@@ -13,6 +13,7 @@ import butterknife.OnClick;
 
 public class Activity_Login extends BaseActivity implements Contract_Login.mvpView {
     @BindView(R.id.btnlogin) Button btnLogin;
+    @BindView(R.id.btnMembership) Button btnMember;
     @BindView(R.id.et_id) EditText etID;
     @BindView(R.id.et_pwd) EditText etPWD;
 
@@ -36,6 +37,11 @@ public class Activity_Login extends BaseActivity implements Contract_Login.mvpVi
     @OnClick(R.id.btnlogin)
     public void OnClickLogin(){
         mPresenter.Login(etID,etPWD,mContext);
+    }
+
+    @OnClick(R.id.btnMembership)
+    public void OnClickMember(){
+        mPresenter.ClickEventMember(mContext);
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.example.fintech.ui.main;
+package com.example.fintech.ui;
 
 import android.app.Activity;
 import android.content.Intent;
