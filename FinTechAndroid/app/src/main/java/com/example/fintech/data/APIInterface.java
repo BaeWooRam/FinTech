@@ -1,5 +1,7 @@
 package com.example.fintech.data;
 
+import com.example.fintech.data.vo.Goods;
+
 import java.util.List;
 
 import retrofit2.Call;
@@ -20,6 +22,18 @@ public interface APIInterface {
 
     @GET("payment/signup")
     Call<String> doGetCreateID(@Query("email") String email,@Query("name") String name,@Query("password") String password);
+
+    @GET("payment/checkID")
+    Call<List<Goods>> doGetFoodsList();
+
+    @GET("payment/checkID")
+    Call<List<Goods>> doGetCoffeeList();
+
+    @GET("payment/checkID")
+    Call<Goods> doGetGoods();
+
+    @GET("payment/checkID")
+    Call<Goods> doInsertOrder(@Query("_id") String _id);
 //
 //    @FormUrlEncoded
 //    @POST("myPage/shopping")

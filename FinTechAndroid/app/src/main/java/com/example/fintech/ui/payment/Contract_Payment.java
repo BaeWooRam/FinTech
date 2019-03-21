@@ -3,7 +3,7 @@ package com.example.fintech.ui.payment;
 import com.example.fintech.base.MvpPresenter;
 import com.example.fintech.base.MvpView;
 
-public interface Contract_Main {
+public interface Contract_Payment {
     interface mvpView extends MvpView<Presenter> {
         void setBottomNavigation();
     }

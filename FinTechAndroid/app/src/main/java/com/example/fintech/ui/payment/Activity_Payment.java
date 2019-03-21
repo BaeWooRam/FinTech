@@ -5,7 +5,7 @@ import android.os.Bundle;
 import com.example.fintech.R;
 import com.example.fintech.base.BaseActivity;
 
-public class Activity_Goods extends BaseActivity{
+public class Activity_Payment extends BaseActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
