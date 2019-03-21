@@ -3,6 +3,8 @@ package com.example.fintech.ui.login;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -10,6 +12,7 @@ import android.widget.TextView;
 import com.example.fintech.R;
 import com.example.fintech.base.BaseActivity;
 import com.example.fintech.data.APIServerHelper;
+import com.example.fintech.data.MsUrl;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,15 +22,16 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class Presenter_Login implements Contract_Login.Presenter {
-    private long backKeyPressedTime = 0;
     //싱글톤
 
     @Override
     public void Login(EditText etID, EditText etPWD, BaseActivity context) {
-        String id = etID.getText().toString();
-        String pwd = etPWD.getText().toString();
+        String id = etID.getText().toString().trim();
+        String pwd = etPWD.getText().toString().trim();
+        Log.e("Login id",id);
+        Log.e("Login pwd",pwd);
         boolean isID = CheckID(id);
-        boolean isPWD = CheckPwd(id);
+        boolean isPWD = CheckPwd(pwd);
         if(isID){
             if(isPWD) {
                 NetworkingSendID(id);
@@ -67,12 +71,18 @@ public class Presenter_Login implements Contract_Login.Presenter {
         call.enqueue(new Callback<Void>() {
             @Override
             public void onResponse(Call<Void> call, Response<Void> response) {
-                Log.d("test","OK");
+                Log.e("CALL ok", "handleMessage: ");
             }
 
             @Override
             public void onFailure(Call<Void> call, Throwable t) {
-                Log.d("test","FAIL");
+                Log.e("CALL no", "handleMessage: ");
+            }
+        });
+        new MsUrl().m_getContext_fromWebSite_sendPost("http://192.168.30.37:8080/payment/testUser?identifier="+id,"",new Handler(){
+            @Override
+            public void handleMessage(Message msg) {
+                Log.e("HANDLER ok", "handleMessage: ");
             }
         });
     }

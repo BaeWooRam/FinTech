@@ -7,12 +7,13 @@ import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface APIInterface {
 //
-    @GET("payment/testUser?identifier={email}")
-    Call<Void> doGetID(@Query("email") String email);
+    @GET("payment/testUser")
+    Call<Void> doGetID(@Query("identifier") String email);
 //
 //    @FormUrlEncoded
 //    @POST("myPage/shopping")

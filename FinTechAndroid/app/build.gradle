@@ -22,6 +22,8 @@ dependencies {
     //design and support
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    implementation 'com.journeyapps:zxing-android-embedded:3.5.0'
+
     //noinspection GradleCompatible
     implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
     implementation "com.android.support:design:$rootProject.supportLibraryVersion"

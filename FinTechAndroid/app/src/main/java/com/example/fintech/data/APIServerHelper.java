@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class APIServerHelper {
     private static int CONNECT_TIMEOUT = 30;
-    private static String SERVER_URL ="http://192.168.20.7:8080/";
+    private static String SERVER_URL ="http://192.168.30.37:8080";
     private static  OkHttpClient getOkHttpClient() {
         HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
         httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
