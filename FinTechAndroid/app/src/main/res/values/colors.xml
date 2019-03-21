@@ -3,4 +3,13 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!--primary color-->
+    <color name="PrimaryBackground">#111111</color>
+    <color name="PrimaryWhite">#F9F9F9</color>
+
+    <!--bt color-->
+    <color name="color_bt_confirm1">#517AA8</color>
+    <color name="color_bt_confirm2">#9F2137</color>
+
 </resources>

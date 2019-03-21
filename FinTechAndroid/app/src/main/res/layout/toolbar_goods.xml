@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/PrimaryBackground">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_back"/>
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/PrimaryWhite"
+        android:text="전체 메뉴"
+        android:fontFamily="@font/nanum_square_roundeb"
+        android:textSize="20sp"
+        android:progressDrawable="@color/PrimaryWhite" />
+</RelativeLayout>
