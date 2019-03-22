@@ -6,6 +6,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
@@ -22,12 +23,19 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class Activity_Goods extends BaseActivity implements Contract_Goods.mvpView, View.OnClickListener {
+    public static int CATEGORY_BERVERAGE = 0;
+    public static int CATEGORY_FOOD = 1;
+    public static String INTEND_NAME = "info";
+    public static int INTEND_POSTION_ID = 0;
+    public static int INTEND_POSTION_CATEGORY = 1;
+
     @BindView(R.id.rv_goods) RecyclerView rvGoods;
-    @BindView(R.id.goods_tab) TabLayout mTabLayout;
+    @BindView(R.id.tab_goods) TabLayout mTabLayout;
 
     private BaseActivity mContext;
     private Presenter_Goods mPresenter;
     private Adapter_Goods mAdapter;
+    private int mCurrnetCategory=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,8 +49,8 @@ public class Activity_Goods extends BaseActivity implements Contract_Goods.mvpVi
     public void SetUp() {
         mContext = this;
         setPresenter();
-        setTab();
         setRecyclerView();
+        setTab();
         InitActivity();
 
     }
@@ -57,7 +65,6 @@ public class Activity_Goods extends BaseActivity implements Contract_Goods.mvpVi
         //toolbar 세팅
         View CustomView = View.inflate(mContext, R.layout.toolbar,null);
         ((ImageButton)CustomView.findViewById(R.id.btnBack)).setOnClickListener(this);
-        ((TextView)CustomView.findViewById(R.id.toolbar_title)).setText("전체 메뉴");
         setUpToolbar(CustomView);
 
         //Recycler Touch 이벤트
@@ -67,8 +74,8 @@ public class Activity_Goods extends BaseActivity implements Contract_Goods.mvpVi
                 View childView = recyclerView.findChildViewUnder(motionEvent.getX(),motionEvent.getY());
 
                 if(childView != null && gestureDetector.onTouchEvent(motionEvent)){
-                    String id = (String) childView.findViewById(R.id.item_goods_name).getTag();
-                    CommonUtils.GoToActivity(activity,id,Activity_GoodsDetail.class);
+                    String[] info = {(String) childView.findViewById(R.id.item_goods_name).getTag(),String.valueOf(mCurrnetCategory)};
+                    CommonUtils.GoToActivity(activity,info,"info",Activity_GoodsDetail.class);
                     return true;
                 }
                 return false;
@@ -103,10 +110,14 @@ public class Activity_Goods extends BaseActivity implements Contract_Goods.mvpVi
 
                 switch (index){
                     case 0:
+                        mCurrnetCategory=CATEGORY_BERVERAGE;
                         mPresenter.NetworkingGetCoffeeList(mContext,mAdapter);
+                        Log.e("Tab","BERVERAGE");
                         break;
                     case 1:
+                        mCurrnetCategory=CATEGORY_FOOD;
                         mPresenter.NetworkingGetFoodList(mContext,mAdapter);
+                        Log.e("Tab","FOOD");
                         break;
                 }
             }
@@ -121,6 +132,7 @@ public class Activity_Goods extends BaseActivity implements Contract_Goods.mvpVi
 
             }
         });
+        mPresenter.NetworkingGetCoffeeList(mContext,mAdapter);
     }
 
     @Override

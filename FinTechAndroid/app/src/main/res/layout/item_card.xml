@@ -17,6 +17,7 @@
         android:textColor="@color/PrimaryWhite"
         android:textSize="18sp"/>
     <ImageView
+        android:id="@+id/card_img"
         android:layout_gravity="center"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"

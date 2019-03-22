@@ -2,9 +2,18 @@ package com.example.fintech.data.vo;
 
 import com.google.gson.annotations.SerializedName;
 
-public abstract class Goods {
-
+public class Beverage extends Goods{
+    @SerializedName("_id")
     private String id;
+
+    @SerializedName("beverage_name")
+    private String Goods_name;
+
+    @SerializedName("price")
+    private String Goods_price;
+
+    @SerializedName("image")
+    private String Goods_image;
 
     public String getId() {
         return id;
@@ -37,10 +46,4 @@ public abstract class Goods {
     public void setGoods_image(String goods_image) {
         Goods_image = goods_image;
     }
-
-    private String Goods_name;
-
-    private String Goods_price;
-
-    private String Goods_image;
 }

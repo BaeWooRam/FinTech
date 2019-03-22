@@ -8,7 +8,7 @@
     tools:context=".ui.main.Activity_Main">
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/goods_tab"
+        android:id="@+id/tab_goods"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"/>

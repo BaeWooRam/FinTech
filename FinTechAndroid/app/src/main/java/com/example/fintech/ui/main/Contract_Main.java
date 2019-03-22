@@ -10,6 +10,7 @@ import com.example.fintech.base.MvpView;
 
 public interface Contract_Main {
     interface mvpView extends MvpView<Presenter> {
+        void initActivity();
     }
 
     interface Presenter extends MvpPresenter {

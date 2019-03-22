@@ -25,6 +25,7 @@ public abstract class RvItemTouchListener implements RecyclerView.OnItemTouchLis
                 return true;
             }
         });
+        recyclerView.addOnItemTouchListener(this);
     }
 
     @Override

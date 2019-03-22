@@ -2,13 +2,16 @@ package com.example.fintech.ui.login;
 
 
 import android.app.Activity;
+import android.app.Application;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.widget.EditText;
 
+import com.example.fintech.FinTechApplication;
 import com.example.fintech.base.BaseActivity;
 import com.example.fintech.data.APIServerHelper;
+import com.example.fintech.data.vo.MemberShip;
 import com.example.fintech.ui.login.mem.Activity_Member;
 import com.example.fintech.ui.main.Activity_Main;
 import com.example.fintech.util.CommonUtils;
@@ -58,21 +61,28 @@ public class Presenter_Login implements Contract_Login.Presenter {
     private void NetworkingSendID(String id, String pwd, final BaseActivity context){
         context.showLoading();
 
-        Call<String> call = APIServerHelper.getRetrofitClient().doGetLogin(id,pwd);
-        call.enqueue(new Callback<String>() {
+        Call<MemberShip> call = APIServerHelper.getRetrofitClient().doGetLogin(id,pwd);
+        call.enqueue(new Callback<MemberShip>() {
             @Override
-            public void onResponse(Call<String> call, Response<String> response) {
-                String res = response.body();
-                CommonUtils.GoToActivity(context, Activity_Main.class);
+            public void onResponse(Call<MemberShip> call, Response<MemberShip> response) {
+                String res = response.body().getId();
                 context.hideLoading();
-//                if(res.equals(ContractUtils.NETWORKING_CONFIRM))
-//                    CommonUtils.GoToActivity(context, Activity_Main.class);
+                if(res != null) {
+                    FinTechApplication app = (FinTechApplication)context.getApplicationContext();
+                    app.setMemberInfo(response.body());
+
+                    //해당 엑티비티로 이동
+                    CommonUtils.GoToActivity(context, Activity_Main.class);
+                    context.finish();
+                }
+                else
+                    context.showMessage("아이디와 비밀번호를 다시한번 확인해주세요!");
 
             }
 
             @Override
-            public void onFailure(Call<String> call, Throwable t) {
-                context.showMessage("아이디와 비밀번호를 다시한번 확인해주세요!");
+            public void onFailure(Call<MemberShip> call, Throwable t) {
+                context.showMessage("네트워킹 에러!");
                 context.hideLoading();
             }
         });

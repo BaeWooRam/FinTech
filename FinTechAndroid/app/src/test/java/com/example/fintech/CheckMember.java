@@ -24,11 +24,12 @@ public class CheckMember {
     public void test(){
 //        System.out.println(checkEmail("betagogo@naver.com"));
 //        System.out.println(checkEmail("betag@ogo"));
+        String price = null;
         System.out.println(checkPwd("beta@0000"));
         System.out.println(checkPwd("beta0000"));
         System.out.println(checkPwd("000000000"));
         System.out.println(checkPwd("betaggggg"));
-        System.out.println(getSHA512("dnfka@8579"));
+        System.out.println(price == null? "없음":price);
     }
     static boolean checkEmail(String email) {
 

@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:textColor="@color/PrimaryWhite"
-        android:text="전체 메뉴"
+        android:text="결제 내역"
         android:fontFamily="@font/nanum_square_roundeb"
         android:textSize="20sp"
         android:progressDrawable="@color/PrimaryWhite" />

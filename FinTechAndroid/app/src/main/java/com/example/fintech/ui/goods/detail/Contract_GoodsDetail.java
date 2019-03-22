@@ -14,7 +14,7 @@ public interface Contract_GoodsDetail {
     }
 
     interface Presenter extends MvpPresenter {
-        void NetworkingGetGoods(final BaseActivity context, TextView tvName, TextView tvPrice, ImageView ivImage);
-        void NetworkingGetOrder(final BaseActivity context, String id);
+        void NetworkingGetGoods(final BaseActivity context, String id, String Category, final TextView tvName, final TextView tvPrice, final ImageView ivImage);
+        void NetworkingGetOrder(final BaseActivity context, String productID, String productPrice);
     }
 }

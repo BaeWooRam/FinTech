@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/PrimaryBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_logo"
+        android:layout_margin="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:fontFamily="@font/dohyun"
+        android:gravity="center"
+        android:text="주문이 완료되었습니다."
+        android:textColor="@color/PrimaryWhite"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="주문번호 "
+        android:textColor="@color/PrimaryWhite"
+        android:textSize="23sp"
+        android:fontFamily="@font/nanum_square_roundr"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <TextView
+        android:id="@+id/order_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/PrimaryWhite"
+        android:textSize="20sp"
+        android:fontFamily="@font/nanum_square_roundr"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/order_btnconfirm"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_bt_confirm2"
+        android:text="확인"
+        android:textColor="@color/PrimaryWhite"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+
+</LinearLayout>
